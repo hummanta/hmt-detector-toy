@@ -1,0 +1,8 @@
+[package]
+name = "hmt-detector-toy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hmt-detection = { git = "https://github.com/hummanta/hummanta.git", tag = "v0.10.3"}
+walkdir = "2"

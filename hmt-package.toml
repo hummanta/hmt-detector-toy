@@ -1,0 +1,14 @@
+name = "hmt-detector-toy"
+homepage = "https://hummanta.github.io/hmt-detector-toy"
+repository = "https://github.com/hummanta/hmt-detector-toy"
+description = "Detects Toy files by verifying if any file in the specified path has a .toy extension."
+language = "Toy"
+kind = "detector"
+
+targets = [
+	"x86_64-unknown-linux-gnu",
+	"aarch64-unknown-linux-gnu",
+	"x86_64-apple-darwin",
+	"aarch64-apple-darwin",
+	"x86_64-pc-windows-msvc"
+]
