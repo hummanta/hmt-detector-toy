@@ -116,7 +116,7 @@ dependencies = [
 
 [[package]]
 name = "hmt-detector-toy"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "hmt-detection",
  "walkdir",
