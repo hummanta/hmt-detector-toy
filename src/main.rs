@@ -28,7 +28,7 @@ impl Detector for ToyFileDetector {
             .filter_map(Result::ok)
             .any(|entry| entry.path().extension().is_some_and(|ext| ext == "toy"))
         {
-            return DetectResult::pass("Toy".to_string());
+            return DetectResult::pass("Toy".to_string(), "toy".to_string());
         }
 
         DetectResult::fail()
