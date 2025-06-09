@@ -4,5 +4,5 @@ version = "0.1.4"
 edition = "2021"
 
 [dependencies]
-hmt-detection = { git = "https://github.com/hummanta/hummanta.git", tag = "v0.11.6"}
+hmt-detection = { git = "https://github.com/hummanta/hummanta.git", tag = "v0.11.7"}
 walkdir = "2"
