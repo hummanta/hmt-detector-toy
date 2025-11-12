@@ -36,10 +36,10 @@ install:
     just install-hmt-manifest
 
 install-hmt-packager:
-    cargo install hmt-packager --git https://github.com/hummanta/hummanta --tag v0.11.12
+    cargo install hmt-packager --git https://github.com/hummanta/hummanta --tag v0.11.17
 
 install-hmt-manifest:
-    cargo install hmt-manifest --git https://github.com/hummanta/hummanta --tag v0.11.12
+    cargo install hmt-manifest --git https://github.com/hummanta/hummanta --tag v0.11.17
 
 # Uninstall pre-requisites
 uninstall:
@@ -60,7 +60,6 @@ manifest version="local":
 
 # Run all commend in the local environment
 all:
-    just clean
     just check
     just build dev
     just package dev "" local
