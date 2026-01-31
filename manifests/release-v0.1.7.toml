@@ -1,0 +1,21 @@
+version = "v0.1.7"
+
+[artifacts.aarch64-unknown-linux-gnu]
+url = "https://github.com/hummanta/hmt-detector-toy/releases/download/v0.1.7/hmt-detector-toy-v0.1.7-aarch64-unknown-linux-gnu.tar.gz"
+hash = "12ce5c92d69a43c61ff035cf8080f0a2b169d8acaa84755b7e20e549fc8c7856"
+
+[artifacts.aarch64-apple-darwin]
+url = "https://github.com/hummanta/hmt-detector-toy/releases/download/v0.1.7/hmt-detector-toy-v0.1.7-aarch64-apple-darwin.tar.gz"
+hash = "354f76c37b2afbe795039f5499a478e0c713c446f7e53050eb0358d782d79810"
+
+[artifacts.x86_64-pc-windows-msvc]
+url = "https://github.com/hummanta/hmt-detector-toy/releases/download/v0.1.7/hmt-detector-toy-v0.1.7-x86_64-pc-windows-msvc.tar.gz"
+hash = "e1152c85e6a7d95e2d92e1e38ed362b6dc6330db8e55fe7c48b61a3e88407f5e"
+
+[artifacts.x86_64-apple-darwin]
+url = "https://github.com/hummanta/hmt-detector-toy/releases/download/v0.1.7/hmt-detector-toy-v0.1.7-x86_64-apple-darwin.tar.gz"
+hash = "ec415e68155acbc5b28516d175367b45c16ecdc4cd07b91e2747b2cf65d5e27e"
+
+[artifacts.x86_64-unknown-linux-gnu]
+url = "https://github.com/hummanta/hmt-detector-toy/releases/download/v0.1.7/hmt-detector-toy-v0.1.7-x86_64-unknown-linux-gnu.tar.gz"
+hash = "75e62f6c72b120939875cbc490fcc5a4b9fa1bafc5633544f8406ae8a1e3f549"
